@@ -1,0 +1,12 @@
+.hidden-text, .response {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  width: 300px;
+}
+
+.response {
+  display: none;
+  background-color: #f0f0f0;
+}
