@@ -21,6 +21,10 @@ header {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+.hidden-text {
+  background-color: #e0e7ff; /* Light blue for priest */
+}
+
 .hidden-text, .response {
   font-size: 18px;
   margin: 5px;
@@ -38,16 +42,23 @@ header {
 .hidden-text:hover {
   transform: scale(1.05);
 }
-
 .response {
   display: none;
-  background-color: #f0f9ff;
+  background-color: #f0f9ff; /* Slightly lighter blue for server */
   border: 1px solid #d4dbe8;
 }
-
 @media (max-width: 600px) {
   .hidden-text, .response {
       font-size: 16px;
       padding: 10px;
   }
+}
+
+.role {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #d1d8e9; /* Neutral color for role labels */
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
