@@ -32,6 +32,14 @@ body {
   border: 1px solid #d4dbe8;
 }
 
+header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 @media (max-width: 600px) {
   .hidden-text, .response {
       font-size: 16px;
